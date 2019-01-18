@@ -16,14 +16,16 @@ body {
     box-shadow: 0 0 2px rgba(0, 0, 0, 0.06);
 }
 
-h1, h2, h3, h4, h5, h6, {
+h1, h2, h3, h4, h5, h6,#name,#mail {
 
     font-family:calibri;
     object-position: center;
     font-weight: 600;
     line-height: 1.3em;
 }
-
+h3{
+text-decoration: underline;
+}
 hr{
     background-color:red;
     height:7px;
@@ -45,6 +47,13 @@ main{
     padding : 1%;
 }
 
+nav{
+    text-align: center;
+    margin-top:0px;
+    padding :3px;
+    background-color: red;
+}
+
 aside{
     
     padding :2%;
@@ -64,7 +73,7 @@ padding :3%;
 
 
 a {
-    color: #0083e8; 
+    color: black; 
 }
 
 b, strong {
